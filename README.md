@@ -1,49 +1,92 @@
-# Skill India App
+Skill India Website
+This is a Skill India initiative website, designed to provide an online learning platform with functionalities like registration, login, and course management. It includes both frontend and backend components for a seamless user experience.
 
-A full-stack web application designed under the **Skill India Initiative**, aimed at helping users manage and improve their skills through a centralized dashboard. It includes interactive features such as a news feed, inbox, task manager, and admin tools for monitoring and reporting.
+Project Overview
+This project aims to build a platform for online learning, where users can access courses, learn new skills, and track their progress. The website includes features like:
 
-## 🌟 Features
+User Registration
 
-- **Dashboard UI** with sidebar navigation
-- **News Feed** to post status updates with text, image, or video
-- **Inbox** for managing messages and notifications
-- **Task Management** to view, add, or track pending/completed tasks
-- **UI Components** like buttons, forms, tables, and charts
-- **Admin Panel** to manage users and analyze reports
+User Login
 
-## 🧱 Tech Stack
+Course Management
 
-### Frontend:
-- HTML, CSS, JavaScript
-- Bootstrap (for responsive design)
+Database Integration
 
-### Backend:
-- Node.js
-- Express.js
+Admin Panel for managing users and courses.
 
-### Database:
-- MongoDB (or MySQL, based on configuration)
+Technologies Used
+Frontend:
 
-## 🌐 Deployment
+HTML
 
-Hosted on: `Your Hosting Platform`  
-(Replace this with Heroku, Vercel, Render, or your deployed link)
+CSS
 
-## 📷 Screenshots
+JavaScript
 
-*Add relevant screenshots here from your project (dashboard, news feed, tasks, etc.)*
+Bootstrap (for responsive UI)
 
-## 🛠️ Installation & Setup
+Backend:
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/skill-india-app.git
+PHP (for server-side logic)
 
-# Navigate into the project directory
-cd skill-india-app
+MySQL (for database management)
 
-# Install dependencies
-npm install
+Tools:
 
-# Run the app (assuming backend server setup)
-npm start
+XAMPP (for local server setup)
+
+Features
+User can register and log in to access courses.
+
+Admin can manage users, view user statistics, and add new courses.
+
+User can enroll in courses and track their progress.
+
+Prerequisites
+XAMPP/WAMP/MAMP: You need a local server environment to run this project.
+
+PHP 7.4 or higher: Ensure PHP is installed and configured correctly.
+
+MySQL Database: You will need a MySQL database with the schema and tables created.
+
+Setup Instructions
+1. Clone the Repository
+Clone this repository to your local machine using Git:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/Skill-India-Website.git
+2. Place Project Files in XAMPP
+Copy the entire Skill-India-Website folder to the htdocs directory in your XAMPP installation (usually located in C:\xampp\htdocs).
+
+3. Database Setup
+Open phpMyAdmin (usually available at http://localhost/phpmyadmin).
+
+Create a new database named db_elearning.
+
+Import the sql/database.sql file (located in the project folder) into the db_elearning database.
+
+4. Configuration
+Open the include/database.php file.
+
+Set the database credentials as per your MySQL setup:
+
+php
+Copy
+Edit
+private $db_host = "localhost";  // Replace with your database host
+private $db_user = "root";       // Your MySQL username (default in XAMPP is "root")
+private $db_pass = "";           // Your MySQL password (default in XAMPP is empty)
+private $db_name = "db_elearning"; // Your database name
+5. Running the Website
+Start Apache and MySQL from the XAMPP control panel.
+
+Open a browser and go to:
+
+arduino
+Copy
+Edit
+http://localhost/Skill
+This should load the homepage of the Skill India website.
+
