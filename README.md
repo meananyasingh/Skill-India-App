@@ -1,8 +1,8 @@
-Skill India Website
+**Skill India Website**
 
 This is a Skill India initiative website, designed to provide an online learning platform with functionalities like registration, login, and course management. It includes both frontend and backend components for a seamless user experience.
 
-Project Overview
+**Project Overview**
 
 This project aims to build a platform for online learning, where users can access courses, learn new skills, and track their progress. The website includes features like:
 
@@ -16,8 +16,9 @@ Database Integration
 
 Admin Panel for managing users and courses.
 
-Technologies Used
-Frontend:
+**Technologies Used**
+
+**Frontend:**
 
 HTML
 
@@ -27,31 +28,34 @@ JavaScript
 
 Bootstrap (for responsive UI)
 
-Backend:
+**Backend:**
 
 PHP (for server-side logic)
 
 MySQL (for database management)
 
-Tools:
+**Tools:**
 
 XAMPP (for local server setup)
 
-Features
+**Features**
+
 User can register and log in to access courses.
 
 Admin can manage users, view user statistics, and add new courses.
 
 User can enroll in courses and track their progress.
 
-Prerequisites
+**Prerequisites**
+
 XAMPP/WAMP/MAMP: You need a local server environment to run this project.
 
 PHP 7.4 or higher: Ensure PHP is installed and configured correctly.
 
 MySQL Database: You will need a MySQL database with the schema and tables created.
 
-**Setup Instructions
+****Setup Instructions.
+**
 **1. Clone the Repository****
 
 Clone this repository to your local machine using Git:
